@@ -5,7 +5,7 @@ variable "vpc_cidr" {
 }
 
 variable "env" {
-  default     = "development"
+  default     = "production"
   type        = string
   description = "env"
 }
